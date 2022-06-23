@@ -16,7 +16,7 @@ export default [
     output: [
       {
         format: 'cjs',
-        file: 'index.js',
+        file: 'require.js',
         sourcemap: true
       },
       {
