@@ -1,6 +1,6 @@
 {
-  "name": "methods-node",
-  "version": "1.1.21",
+  "name": "file-folder",
+  "version": "1.0.0",
   "description": "",
   "main": "src/index.ts",
   "scripts": {
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aenuen/20010-methods-often.git"
+    "url": "git+https://github.com/aenuen/20011-file-folder.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aenuen/20010-methods-often/issues"
+    "url": "https://github.com/aenuen/20011-file-folder/issues"
   },
-  "homepage": "https://github.com/aenuen/20010-methods-often#readme",
+  "homepage": "https://github.com/aenuen/20011-file-folder#readme",
   "devDependencies": {
     "@babel/core": "^7.18.5",
     "@babel/preset-env": "^7.18.2",
