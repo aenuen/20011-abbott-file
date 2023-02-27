@@ -1,4 +1,4 @@
-import fs from 'fs'
+import fs from "fs";
 
 /**
  * @description 重命名（移动）文件（夹）
@@ -9,7 +9,7 @@ import fs from 'fs'
 export const rename = (fOld: string, fNew: string): Promise<boolean> => {
   return new Promise((resolve, reject) => {
     fs.rename(fOld, fNew, (err) => {
-      err ? reject(false) : resolve(true)
-    })
-  })
-}
+      err ? reject(false) : resolve(true);
+    });
+  });
+};

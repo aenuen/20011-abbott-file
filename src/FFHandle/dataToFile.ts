@@ -1,4 +1,4 @@
-import fs from 'fs'
+import fs from "fs";
 
 /**
  * @description 将数据保存成文件
@@ -9,7 +9,7 @@ import fs from 'fs'
 export const dataToFile = (fData: any, fFile: string): Promise<string> => {
   return new Promise((resolve, reject) => {
     fs.writeFile(fFile, fData, (err) => {
-      err ? reject('') : resolve(fFile)
-    })
-  })
-}
+      err ? reject("") : resolve(fFile);
+    });
+  });
+};

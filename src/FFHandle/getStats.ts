@@ -1,4 +1,4 @@
-import fs from 'fs'
+import fs from "fs";
 
 /**
  * @description 获取目录或文件的系统明细
@@ -8,7 +8,7 @@ import fs from 'fs'
 export const getStats = (fOrFPath: string): Promise<Record<string | number | symbol, any>> => {
   return new Promise((resolve, reject) => {
     fs.stat(fOrFPath, (err, stats) => {
-      err ? reject({}) : resolve(stats)
-    })
-  })
-}
+      err ? reject({}) : resolve(stats);
+    });
+  });
+};

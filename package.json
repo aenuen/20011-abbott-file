@@ -1,9 +1,10 @@
 {
-  "name": "file-folder",
+  "name": "abbott-file",
   "version": "1.0.1",
   "description": "",
   "main": "require.js",
   "scripts": {
+    "pro": "rollup -c",
     "build": "rollup -c",
     "test": "jest --no-cache",
     "rm:dist": "rimraf dist",
@@ -11,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aenuen/20011-file-folder.git"
+    "url": "git+https://github.com/aenuen/20011-abbott-file.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aenuen/20011-file-folder/issues"
+    "url": "https://github.com/aenuen/20011-abbott-file/issues"
   },
-  "homepage": "https://github.com/aenuen/20011-file-folder#readme",
+  "homepage": "https://github.com/aenuen/20011-abbott-file#readme",
   "devDependencies": {
     "@babel/core": "^7.18.5",
     "@babel/preset-env": "^7.18.2",

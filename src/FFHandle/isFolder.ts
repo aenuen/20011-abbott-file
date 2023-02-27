@@ -1,4 +1,4 @@
-import fs from 'fs'
+import fs from "fs";
 
 /**
  * @description 是否文件夹
@@ -8,7 +8,7 @@ import fs from 'fs'
 export const isFolder = (fFolder: string): Promise<boolean> => {
   return new Promise((resolve, reject) => {
     fs.stat(fFolder, (err, stats) => {
-      err ? reject(false) : stats.isDirectory() ? resolve(true) : reject(false)
-    })
-  })
-}
+      err ? reject(false) : stats.isDirectory() ? resolve(true) : reject(false);
+    });
+  });
+};

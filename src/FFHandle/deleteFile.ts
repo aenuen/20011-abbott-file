@@ -1,4 +1,4 @@
-import fs from 'fs'
+import fs from "fs";
 
 /**
  * @description 删除文件
@@ -10,11 +10,11 @@ export const deleteFile = (fFile: string): Promise<boolean> => {
     if (fFile) {
       if (fs.existsSync(fFile)) {
         fs.unlink(fFile, (err) => {
-          err ? reject(false) : resolve(true)
-        })
+          err ? reject(false) : resolve(true);
+        });
       } else {
-        resolve(true)
+        resolve(true);
       }
     }
-  })
-}
+  });
+};

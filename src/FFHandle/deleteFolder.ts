@@ -1,4 +1,4 @@
-import fs from 'fs'
+import fs from "fs";
 
 /**
  * @description 删除文件夹
@@ -8,12 +8,11 @@ import fs from 'fs'
 export const deleteFolder = (fFolder: string): Promise<boolean> => {
   return new Promise((resolve, reject) => {
     if (fs.existsSync(fFolder)) {
-      fs.rmdir(fFolder, {recursive: true}, (err) => {
-          err ? reject(false) : resolve(true)
-        }
-      )
+      fs.rmdir(fFolder, { recursive: true }, (err) => {
+        err ? reject(false) : resolve(true);
+      });
     } else {
-      resolve(true)
+      resolve(true);
     }
-  })
-}
+  });
+};
